@@ -60,6 +60,13 @@
             $('#art-details').text(item.data('details'));
             $('#art-bitcoin-address').text(item.data('bitcoin-address'));
             $('#qr-code img').attr('src', 'https://blockchain.info/qr?data=' + item.data('bitcoin-address'));
+
+            $.ajax({
+              url: 'https://blockchain.info/q/addressbalance/' + item.data('bitcoin-address')
+            }).done(function( data ) {
+              $('#tip-info').text('Current Tip Balance: ' + data + ' Satoshis');
+            });
+
           })
           .on('jcarouselcontrol:inactive', function() {
             item.removeClass('active');
