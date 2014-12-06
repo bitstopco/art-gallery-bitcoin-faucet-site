@@ -22,8 +22,8 @@
         var thumbnailHTML = '<ul>';
 
         $.each(data.art_pieces, function() {
-          stageHTML += '<li><img src="' + baseURL + 'art-pieces-stage/' + this.image_file_name + '" alt="' + this.title + '"></li>';
-          thumbnailHTML += '<li><img src="' + baseURL + 'art-pieces-thumbnail/' + this.image_file_name + '" alt="' + this.title + '"></li>';
+          stageHTML += '<li data-artist="' + this.artist + '" data-art-title="' + this.title + '" data-details="' + this.details + '" data-bitcoin-address="' + this.btc_address + '"><img src="' + baseURL + 'art-pieces-stage/' + this.image_file_name + '" alt="' + this.title + '"></li>';
+          thumbnailHTML += '<li data-artist="' + this.artist + '" data-art-title="' + this.title + '" data-details="' + this.details + '" data-bitcoin-address="' + this.btc_address + '"><img src="' + baseURL + 'art-pieces-thumbnail/' + this.image_file_name + '" alt="' + this.title + '"></li>';
         });
 
         stageHTML += '</ul>';
@@ -54,6 +54,16 @@
           .on('jcarouselcontrol:active', function() {
             carouselNavigation.jcarousel('scrollIntoView', this);
             item.addClass('active');
+
+            $('#art-title').text(item.data('art-title'));
+            $('#art-artist').text(item.data('artist'));
+            $('#art-details').text(item.data('details'));
+            $('#art-bitcoin-address').text(item.data('bitcoin-address'));
+
+            console.log(item.data('artist'));
+            console.log(item.data('art-title'));
+            console.log(item.data('details'));
+            console.log(item.data('bitcoin-address'));
           })
           .on('jcarouselcontrol:inactive', function() {
             item.removeClass('active');
