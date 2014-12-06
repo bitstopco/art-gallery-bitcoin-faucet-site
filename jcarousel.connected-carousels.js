@@ -64,7 +64,7 @@
             $.ajax({
               url: 'https://blockchain.info/q/addressbalance/' + item.data('bitcoin-address')
             }).done(function( data ) {
-              $('#tip-info').text('Current Tip Balance: ' + data + ' Satoshis');
+              $('#tip-info').html('Current Tip Balance:<br />' + (data / 100) + ' BITS');
             });
 
           })
