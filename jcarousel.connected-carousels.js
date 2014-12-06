@@ -9,7 +9,7 @@
         return carouselStage.jcarousel('items').eq(itemNavigation.index());
     };
 
-    var baseURL = 'images/art-pieces/';
+    var baseURL = 'images/';
 
     $(function() {
 
@@ -18,17 +18,20 @@
       var carouselNavigation = $('.carousel-navigation').jcarousel();
 
       var setup = function(data) {
-        var html = '<ul>';
-
+        var stageHTML = '<ul>';
+        var thumbnailHTML = '<ul>';
+        
         $.each(data.art_pieces, function() {
-          html += '<li><img src="' + baseURL + this.image_file_name + '" alt="' + this.title + '"></li>';
+          stageHTML += '<li><img src="' + baseURL + 'art-pieces-stage/' + this.image_file_name + '" alt="' + this.title + '"></li>';
+          thumbnailHTML += '<li><img src="' + baseURL + 'art-pieces-thumbnail/' + this.image_file_name + '" alt="' + this.title + '"></li>';
         });
 
-        html += '</ul>';
+        stageHTML += '</ul>';
+        thumbnailHTML += '</ul>';
 
         // Append items
-        carouselStage.html(html);
-        carouselNavigation.html(html);
+        carouselStage.html(stageHTML);
+        carouselNavigation.html(thumbnailHTML);
 
         // Reload carousel
         carouselStage.jcarousel('reload');
