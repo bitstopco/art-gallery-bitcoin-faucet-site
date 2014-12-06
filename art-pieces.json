@@ -1,0 +1,414 @@
+{
+  "art_pieces": [
+    {
+      "title": "Wheel of Fortune",
+      "artist": "Mark Henson",
+      "image_file_name": "wheel-of-fortune.jpg",
+      "btc_address": "1L2vV1bCf59QrgTP3P6HHtKFkpiRdFx4bN",
+      "details": "Oil on Canvas",
+      "width": 25,
+      "height": 31,
+      "price": 18000
+    },
+    {
+      "title": "The Dreamer",
+      "artist": "Mark Henson",
+      "image_file_name": "the-dreamer.jpg",
+      "btc_address": "1HjskWmb5qDPUmLaHqdXXAbhB37CC1Mz77",
+      "details": "Oil on Canvas",
+      "width": 31,
+      "height": 25,
+      "price": 18000
+    },
+    {
+      "title": "Building A Tribal Future",
+      "artist": "Jessica Perlstein",
+      "image_file_name": "building-a-tribal-future.jpg",
+      "btc_address": "19tBUpM8wdFoSLbwny6D4H6cgUPJ9PRKh",
+      "details": "Giclee Print on Canvas",
+      "width": 20,
+      "height": 30,
+      "price": 375
+    },
+    {
+      "title": "Portal",
+      "artist": "Jonathan Solter",
+      "image_file_name": "portal.jpg",
+      "btc_address": "1MZSUdy9M9DAHzyMRGisrJPkWQ3gARLuxW",
+      "details": "Giclee Print on Canvas",
+      "width": 24,
+      "height": 36,
+      "price": 300
+    },
+    {
+      "title": "Humming Dragon",
+      "artist": "Andriod Jones",
+      "image_file_name": "humming-dragon.jpg",
+      "btc_address": "1Pmkc4YsrbWVAbkpm6nk6jNa22GZtgFmtV",
+      "details": "Giclee Print on Canvas",
+      "width": 86,
+      "height": 40,
+      "price": 1600
+    },
+    {
+      "title": "Electric Love",
+      "artist": "Andriod Jones",
+      "image_file_name": "electric-love.jpg",
+      "btc_address": "1BpPyVaN2yUYHatKRXQ7qLjvfi67TvuMTT",
+      "details": "Giclee Print on Canvas",
+      "width": 116,
+      "height": 40,
+      "price": 1850
+    },
+    {
+      "title": "Forward Escape",
+      "artist": "Andriod Jones",
+      "image_file_name": "forward-escape.jpg",
+      "btc_address": "19dKQf1iHe2aqNvmtrLtbn5PhPQh2NZbU8",
+      "details": "Giclee Print on Canvas",
+      "width": 60,
+      "height": 40,
+      "price": 1065
+    },
+    {
+      "title": "Ascension",
+      "artist": "Abhi Thati",
+      "image_file_name": "ascension.jpg",
+      "btc_address": "1LVJpZhQaowsRshNogU42bZLKTtGo23Etp",
+      "details": "Giclee Print on Canvas",
+      "width": 31,
+      "height": 20.5,
+      "price": 600
+    },
+    {
+      "title": "Luminous",
+      "artist": "Abhi Thati",
+      "image_file_name": "luminous.jpg",
+      "btc_address": "1E82Q7GAMJmRvC3CXgEBVKkrjVSYWtvdc5",
+      "details": "Giclee Print on Canvas",
+      "width": 22,
+      "height": 24,
+      "price": 450
+    },
+    {
+      "title": "The Rise of Sachamama",
+      "artist": "Jessica Perlstein",
+      "image_file_name": "the-rise-of-sachamama.jpg",
+      "btc_address": "1AEMi5hKHcpT6U2wvqVkgUmyTUwH5nBr1p",
+      "details": "Giclee Print on Canvas",
+      "width": 24,
+      "height": 36,
+      "price": 450
+    },
+    {
+      "title": "An Ode to the Great Mother",
+      "artist": "Jake Kobrin",
+      "image_file_name": "an-ode-to-the-great-mother.jpg",
+      "btc_address": "1BhubXmmrjrcze2a4ZNdxc98uZW3LqBpG",
+      "details": "Embellished Giclee on Canvas",
+      "width": 25,
+      "height": 25,
+      "price": 1200
+    },
+    {
+      "title": "Poetic Dreamer",
+      "artist": "Olivia Curry",
+      "image_file_name": "poetic-dreamer.jpg",
+      "btc_address": "1GVkrtcjpGmvkJfN4Xusdrdio8zPkK9VRY",
+      "details": "Giclee Print on Canvas",
+      "width": 22,
+      "height": 34,
+      "price": 525
+    },
+    {
+      "title": "Chaos and Composure",
+      "artist": "Jake Kobrin",
+      "image_file_name": "chaos-and-composure.jpg",
+      "btc_address": "1LarhD8AGT2Z75rU4hUhnqCmDQXPTMb34C",
+      "details": "Oil and Casein on Canvas",
+      "width": 38,
+      "height": 31,
+      "price": 7500
+    },
+    {
+      "title": "Decisions",
+      "artist": "Jeff Dekal",
+      "image_file_name": "decisions.jpg",
+      "btc_address": "12t6zJe5VMUyvuDZSbB7ffQXnEBzvpDRyq",
+      "details": "Digital Print on Paper",
+      "width": 21,
+      "height": 25,
+      "price": 150
+    },
+    {
+      "title": "Good Bye Sky",
+      "artist": "Jeff Dekal",
+      "image_file_name": "good-bye-sky.jpg",
+      "btc_address": "16v7byEViExDXUjJLx81FsZmc9BmxKWjhN",
+      "details": "Oil on Canvas",
+      "width": 18,
+      "height": 25,
+      "price": 4500
+    },
+    {
+      "title": "Dust",
+      "artist": "Jose Mertz",
+      "image_file_name": "dust.jpg",
+      "btc_address": "14UfoAkavkV6PEtEVyrAUPCNzEYRMrLns1",
+      "details": "Mixed Media on Paper",
+      "width": 24,
+      "height": 24,
+      "price": 3000
+    },
+    {
+      "title": "Times Square",
+      "artist": "Reinier Gamboa",
+      "image_file_name": "times-square.jpg",
+      "btc_address": "1Jmb8uejiYgzKPP5gCsZcDK7pLZZcujnRJ",
+      "details": "Oil on Canvas",
+      "width": 60,
+      "height": 48,
+      "price": 7500
+    },
+    {
+      "title": "Jaguar Sun",
+      "artist": "Anya Nadal",
+      "image_file_name": "jaguar-sun.jpg",
+      "btc_address": "16FawHyaRTYC2tkKrn6bqLB6kxSGvFCjuG",
+      "details": "Acrylic on Canvas",
+      "width": 24,
+      "height": 24,
+      "price": 3750
+    },
+    {
+      "title": "Laser Wolf",
+      "artist": "Anya Nadal",
+      "image_file_name": "laser-wolf.jpg",
+      "btc_address": "19sLrbnNTMduaJtfSCvi6xkUFZhvuJj9fk",
+      "details": "Acrylic on Canvas",
+      "width": 20,
+      "height": 20,
+      "price": 1800
+    },
+    {
+      "title": "Madd Saucery",
+      "artist": "Lauranda Hook",
+      "image_file_name": "madd-saucery.jpg",
+      "btc_address": "1HbFHeHTCFLSK5TyUdZiJf2diRHgr4xCKd",
+      "details": "Pencil & Watercolor on Paper",
+      "width": 31,
+      "height": 23,
+      "price": 3300
+    },
+    {
+      "title": "Temple of the Sun",
+      "artist": "Olivia Curry",
+      "image_file_name": "temple-of-the-sun.jpg",
+      "btc_address": "1KXMpGgW56t4pAhtH3FyFTHKZT5XJSapw6",
+      "details": "Giclee Print on Canvas",
+      "width": 24,
+      "height": 36,
+      "price": 600
+    },
+    {
+      "title": "Scape",
+      "artist": "Seth McMhon",
+      "image_file_name": "scape.jpg",
+      "btc_address": "1Cwes9d7YtdD3ysSQw9z8U6dnZ6ku7Ynkk",
+      "details": "Giclee Print on Canvas",
+      "width": 27,
+      "height": 19,
+      "price": 600
+    },
+    {
+      "title": "Beacon",
+      "artist": "Seth McMhon",
+      "image_file_name": "beacon.jpg",
+      "btc_address": "14tRqHR7D24oXSXUx382CjtZX1ynuDDExE",
+      "details": "Giclee Print on Canvas",
+      "width": 29,
+      "height": 19,
+      "price": 600
+    },
+    {
+      "title": "Taste of Yin",
+      "artist": "Olivia Curry",
+      "image_file_name": "taste-of-yin.jpg",
+      "btc_address": "1F1fF4uhRnKXtJH42rcDN5V9k8bSGNgKob",
+      "details": "Giclee Print on Canvas",
+      "width": 32,
+      "height": 24,
+      "price": 525
+    },
+    {
+      "title": "Dancing",
+      "artist": "Cory Hunter",
+      "image_file_name": "dancing.jpg",
+      "btc_address": "1CcBvZ5QrC7qAo8wWG6GxhDkrMLpCmY6Aw",
+      "details": "Mixed Media on Fiber Board",
+      "width": 31,
+      "height": 41,
+      "price": 1200
+    },
+    {
+      "title": "iSoul",
+      "artist": "Eva Ruiz",
+      "image_file_name": "isoul.jpg",
+      "btc_address": "19XHwRmyaQ65Me2VLHAbjFogmqscehADpJ",
+      "details": "Mixed Media on Canvas",
+      "width": 13,
+      "height": 28,
+      "price": 1200
+    },
+    {
+      "title": "Peace Tank",
+      "artist": "Cory Hunter",
+      "image_file_name": "peace-tank.jpg",
+      "btc_address": "121TQqoCuFo3rFamtzL31czgdZBJWHbtt7",
+      "details": "Mixed Media on Wood",
+      "width": 48,
+      "height": 24,
+      "price": 900
+    },
+    {
+      "title": "Luz Interna",
+      "artist": "Gustavo Adolfo Rodriguez",
+      "image_file_name": "luz-interna.jpg",
+      "btc_address": "1MNjvtffhnmm6fhHtsbm9xrRd6zbcdaahs",
+      "details": "Xylography on Canvas",
+      "width": 44,
+      "height": 89,
+      "price": 20000
+    },
+    {
+      "title": "Here II Here",
+      "artist": "Alissa Christine",
+      "image_file_name": "here-ii-here.jpg",
+      "btc_address": "1PHS3zyqvtaEDxqJ3QYDE5K9kBVb2gPhE6",
+      "details": "Mixed Media on Photo Paper",
+      "width": 37.5,
+      "height": 17,
+      "price": 1200
+    },
+    {
+      "title": "Ubiquitous Assimilation",
+      "artist": "Zak Holley",
+      "image_file_name": "ubiquitous-assimilation.jpg",
+      "btc_address": "1LeRP4yef5wa8hyW9taMRrRQHMTJFQpaWm",
+      "details": "Gouache on Panel",
+      "width": 22,
+      "height": 26,
+      "price": 7750
+    },
+    {
+      "title": "Rasta Red Eye",
+      "artist": "Ras Clinton",
+      "image_file_name": "rasta-red-eye.jpg",
+      "btc_address": "1LdsLDtDwji5RPwoMPoPxX4JV8xpKJQR7o",
+      "details": "Wood Carving",
+      "width": 12,
+      "height": 16,
+      "price": 910
+    },
+    {
+      "title": "5 Faces",
+      "artist": "Ras Clinton",
+      "image_file_name": "5-faces.jpg",
+      "btc_address": "1CkUeyZrcsBTAQp2zCzTFWK1ohVdrrYfuK",
+      "details": "Wood Carving",
+      "width": 29,
+      "height": 34,
+      "price": 5000
+    },
+    {
+      "title": "In The Dark",
+      "artist": "Robert Aura Freitag",
+      "image_file_name": "in-the-dark.jpg",
+      "btc_address": "1t17XJzbA9fEUkk1FUGesTXqfAWgiwocH",
+      "details": "Digital Print on Paper",
+      "width": 36,
+      "height": 22,
+      "price": 375
+    },
+    {
+      "title": "In The Light",
+      "artist": "Robert Aura Freitag",
+      "image_file_name": "in-the-light.jpg",
+      "btc_address": "1Q3XEz6CGKWcwtNCTU3834z9tzna9b9G8d",
+      "details": "Giclee Print on Canvas",
+      "width": 21,
+      "height": 17,
+      "price": 225
+    },
+    {
+      "title": "Eve of Destruction",
+      "artist": "Baba Trips",
+      "image_file_name": "eve-of-destruction.jpg",
+      "btc_address": "1LKkZxewURYx7BBmayBxmndD4wZMV1Qksv",
+      "details": "Digital Print on Paper",
+      "width": 32,
+      "height": 42,
+      "price": 3000
+    },
+    {
+      "title": "Energetica",
+      "artist": "Gustave Adolfo Rodriguez",
+      "image_file_name": "energetica.jpg",
+      "btc_address": "1DzE5d2KWF8AcgVv3H65dzq57FkNN1yuFv",
+      "details": "Embellished Giclee on Canvas",
+      "width": 32,
+      "height": 40,
+      "price": 2222
+    },
+    {
+      "title": "Double Terminaled Crystal",
+      "artist": "Ryan Cacolici",
+      "image_file_name": "double-terminaled-crystal.jpg",
+      "btc_address": "1HTsvw2C27mHQNNzAJN9kUPEotzcbRYAdB",
+      "details": "Digital & Watercolor on Canvas",
+      "width": 24,
+      "height": 36,
+      "price": 420
+    },
+    {
+      "title": "Assimilation",
+      "artist": "Erik Lieux",
+      "image_file_name": "assimilation.jpg",
+      "btc_address": "16bTQU4UNsknMCjjqqdoi79FKKSicTgbyS",
+      "details": "Digital Print on Plexiboard",
+      "width": 32,
+      "height": 32,
+      "price": 1200
+    },
+    {
+      "title": "Moose Totem",
+      "artist": "Kiro Fox Ace",
+      "image_file_name": "moose-totem.jpg",
+      "btc_address": "1CP4Q7dMaUzrSj18KCf4CuU2iE4eFB5V1m",
+      "details": "Digital Print on Foam Board",
+      "width": 30,
+      "height": 60,
+      "price": 2250
+    },
+    {
+      "title": "River Vision",
+      "artist": "Frances Furr",
+      "image_file_name": "river-vision.jpg",
+      "btc_address": "1EJfC5mqbKiL2yYHtqb7hirnbZAwx96zyh",
+      "details": "Digatal Print on Fiber Board",
+      "width": 30,
+      "height": 30,
+      "price": 1050
+    },
+    {
+      "title": "Alex Grey Prism Vision",
+      "artist": "Frances Furr",
+      "image_file_name": "alex-grey-prism-vision.jpg",
+      "btc_address": "18gmyoFrxPmqtTVd7FAaY9XDqwgyXZbNGk",
+      "details": "Digatal Print on Fiber Board",
+      "width": 37,
+      "height": 19,
+      "price": 1050
+    }
+  ]
+}
