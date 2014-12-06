@@ -59,11 +59,7 @@
             $('#art-artist').text(item.data('artist'));
             $('#art-details').text(item.data('details'));
             $('#art-bitcoin-address').text(item.data('bitcoin-address'));
-
-            console.log(item.data('artist'));
-            console.log(item.data('art-title'));
-            console.log(item.data('details'));
-            console.log(item.data('bitcoin-address'));
+            $('#qr-code img').attr('src', 'https://blockchain.info/qr?data=' + item.data('bitcoin-address'));
           })
           .on('jcarouselcontrol:inactive', function() {
             item.removeClass('active');
