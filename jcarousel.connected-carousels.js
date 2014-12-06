@@ -1,4 +1,5 @@
 (function($) {
+
     // This is the connector function.
     // It connects one item from the navigation carousel to one item from the
     // stage carousel.
@@ -8,10 +9,33 @@
         return carouselStage.jcarousel('items').eq(itemNavigation.index());
     };
 
+    var baseURL = 'images/art-pieces/';
+
     $(function() {
-        // Setup the carousels. Adjust the options for both carousels here.
-        var carouselStage      = $('.carousel-stage').jcarousel();
-        var carouselNavigation = $('.carousel-navigation').jcarousel();
+
+      // Setup the carousels. Adjust the options for both carousels here.
+      var carouselStage      = $('.carousel-stage').jcarousel();
+      var carouselNavigation = $('.carousel-navigation').jcarousel();
+
+      var setup = function(data) {
+        var html = '<ul>';
+
+        $.each(data.art_pieces, function() {
+          html += '<li><img src="' + baseURL + this.image_file_name + '" alt="' + this.title + '"></li>';
+        });
+
+        html += '</ul>';
+
+        // Append items
+        carouselStage.html(html);
+        carouselNavigation.html(html);
+
+        // Reload carousel
+        carouselStage.jcarousel('reload');
+        carouselNavigation.jcarousel('reload');
+      };
+
+      $.getJSON('art-pieces.json', setup);
 
         // We loop through the items of the navigation carousel and set it up
         // as a control for an item from the stage carousel.
