@@ -1,5 +1,12 @@
 /** Stage container **/
 
+.connected-carousels .top-header {
+  width: 768px;
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+}
+
 .connected-carousels .stage {
     width: 768px;
     margin: 20px auto;
